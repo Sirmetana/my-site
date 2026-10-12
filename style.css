@@ -1,8 +1,32 @@
 body {
   font-family: sans-serif;
   background-color: darkred;
+  /* display: flex; */
+}
+
+p, h1, nav, footer{
+  color: white;
+}
+
+nav{
+  font-size: large;
+  font-weight: bold;
+  align-items: center;
+  
 }
 
 .git{
+  color: beige;
+}
+
+footer{
+  position: absolute;
+  bottom: 0px;
+  padding-left: 10vw;
+}
+
+section{
+  font-size: small;
   color: white;
+  border-top: 10px;
 }
