@@ -1,32 +1,77 @@
 body {
+  display: flex;
+  flex-direction: column;
   font-family: sans-serif;
-  background-color: darkred;
-  /* display: flex; */
+  background:  linear-gradient(135deg, #4C0121, 25%, darkred);
+  /* background:  linear-gradient(135deg, darkred, 90%, white); */
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
 }
 
-p, h1, nav, footer{
+p, h1, nav, footer, section{
   color: white;
 }
 
 nav{
+  position: relative;
   font-size: large;
   font-weight: bold;
-  align-items: center;
-  
+  width: fit-content;
+  border: solid;
+  border-color:white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 6px;
+  margin-top: 8vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  position: relative;
+  font-weight: bolder;
+  width: fit-content;
+  top:5vh;
+  margin-left: 10vw;
+  margin-right: auto;
 }
 
 .git{
-  color: beige;
+  color: blanchedalmond;
 }
 
 footer{
   position: absolute;
   bottom: 0px;
-  padding-left: 10vw;
+  margin-left: 4vw;
+  margin-right: auto;
+  font-size: smaller;
 }
 
 section{
+  position: relative;
+  top: 45vh;
+  margin-left: 5vw;
   font-size: small;
-  color: white;
-  border-top: 10px;
+  padding-top: auto;
+}
+
+.introduction-span{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90vw;
+  top: 8vh;
+  left: 5vw;
+  right: 5vw;
+}
+
+.introduction-span p{
+  position: relative;
+  padding-left: auto;
+  padding-right: auto;
 }
